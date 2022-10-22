@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,h2{
+    font-family: 'Balsamiq Sans', cursive;
+  }
+}
