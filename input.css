@@ -7,3 +7,9 @@
     font-family: 'Balsamiq Sans', cursive;
   }
 }
+
+@layer components {
+  .container {
+    @apply max-w-[1167px]
+  }
+}
