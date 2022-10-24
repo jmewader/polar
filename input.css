@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-  h1,h2{
-    font-family: 'Balsamiq Sans', cursive;
+  body {
+    font-family: "Balsamiq Sans", cursive;
   }
 }
 
 @layer components {
   .container {
-    @apply max-w-[1167px]
+    @apply max-w-[1167px];
   }
 }

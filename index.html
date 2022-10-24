@@ -9,18 +9,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
   </head>
 
   <body>
-    <div class="flex w-full flex-col items-center h-screen bg-center bg-cover" style="background-image: url('/img/Group\ 62.jpg')">
+    <main
+      class="flex w-full flex-col items-start h-screen bg-center bg-cover"
+      style="background-image: url('/img/Group\ 62.jpg')"
+    >
       <header class="w-full py-8">
         <div class="container">
           <div class="flex items-center justify-between">
             <a href="/"><img src="./img/logo.png" alt="logo" /></a>
-            <ul class="flex gap-10">
+            <ul class="flex gap-10 text-white">
               <li><a href="#">Home</a></li>
               <li><a href="#">Product</a></li>
               <li><a href="#">About</a></li>
@@ -29,6 +32,84 @@
           </div>
         </div>
       </header>
-    </div>
+
+      <div class="container">
+        <div class="flex flex-col items-start max-w-[648px] mt-[140px]">
+          <h1 class="text-white text-[61px] mb-10 leading-[73px]">
+            Sweet ice cream for pleasure seekers.
+          </h1>
+
+          <div class="flex items-center gap-12 mb-[30px]">
+            <img src="./img/Group 57.svg" />
+            <p class="text-white text-xl opacity-80">
+              Ice cream is a type of frozen food that is made from water,milk
+              and some added elements.It is a sweet and interesting food item
+              for the kids everywhere.
+            </p>
+          </div>
+
+          <div class="flex w-full justify-center">
+            <button>
+              <img src="./img/Button.svg" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="flex py-[130px]">
+      <div class="container">
+        <div class="flex w-full gap-[270px] items-center mb-[60px]">
+          <h2 class="text-[35px] font-bold">
+            Ice cream is cheaper than therapy for stress.
+          </h2>
+          <p class="text-xl opacity-70">
+            Ice cream is a type of frozen food that is made from water, milk and
+            some added elements.
+          </p>
+        </div>
+
+        <ul class="flex w-full items-center justify-between">
+          <li class="flex flex-col items-center">
+            <img class="flex max-w-[282px]" src="./img/Vanilla.png" /><span
+              class="text-[28px]"
+              >Carnival <span class="text-darkPink">(Vanilla)</span></span
+            >
+          </li>
+          <li class="flex flex-col items-center">
+            <img class="flex max-w-[282px]" src="./img/Choco.png" /><span
+              class="text-[28px]"
+              ><span class="text-darkPink">Choco </span>delight</span
+            >
+          </li>
+          <li class="flex flex-col items-center">
+            <img class="flex max-w-[282px]" src="./img/Strawberry.png" /><span
+              class="text-[28px]"
+              >Carnival<span class="text-darkPink"> Strawberry</span>
+            </span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="container flex items-center gap-[50px]">
+        <img src="./img/Unicorn.png" />
+
+        <div>
+          <h2 class="text-[35px] font-bold mb-[30px]">
+            Stress out ? Try eating our ice cream.
+          </h2>
+
+          <p class="text-lightBlack mb-[40px] opacity-70">
+            Ice cream is a type of frozen food that is made from water, milk and
+            some added elements. It is a sweet and interesting food item for the
+            kids everywhere.
+          </p>
+
+          <button class="bg-darkPink text-white min-w-[200px] min-h-[60px]">Buy Now</button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
