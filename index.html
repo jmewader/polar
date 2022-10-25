@@ -23,10 +23,10 @@
         <div class="flex items-center justify-between">
           <a href="/"><img src="./img/logo.png" alt="logo" /></a>
           <ul class="flex gap-10 text-white">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a class="hover:opacity-60 transition" href="#">Home</a></li>
+            <li><a class="hover:opacity-60 transition" href="#">Product</a></li>
+            <li><a class="hover:opacity-60 transition" href="#">About</a></li>
+            <li><a class="hover:opacity-60 transition" href="#">Contact</a></li>
           </ul>
         </div>
       </header>
@@ -68,19 +68,19 @@
         </div>
 
         <ul class="flex w-full items-center justify-between">
-          <li class="flex flex-col items-center">
+          <li class="flex flex-col items-center pb-10 hover:item-shadow transition">
             <img class="flex max-w-[282px]" src="./img/Vanilla.png" /><span
               class="text-[28px]"
               >Carnival <span class="text-darkPink">(Vanilla)</span></span
             >
           </li>
-          <li class="flex flex-col items-center">
+          <li class="flex flex-col items-center pb-10 hover:item-shadow transition">
             <img class="flex max-w-[282px]" src="./img/Choco.png" /><span
               class="text-[28px]"
               ><span class="text-darkPink">Choco </span>delight</span
             >
           </li>
-          <li class="flex flex-col items-center">
+          <li class="flex flex-col items-center pb-10 hover:item-shadow transition">
             <img class="flex max-w-[282px]" src="./img/Strawberry.png" /><span
               class="text-[28px]"
               >Carnival<span class="text-darkPink"> Strawberry</span>
@@ -98,53 +98,60 @@
           Stress out ? Try eating our ice cream.
         </h2>
 
-        <p class="text-lightBlack mb-[40px] opacity-70">
+        <p class="mb-[40px] opacity-70">
           Ice cream is a type of frozen food that is made from water, milk and
           some added elements. It is a sweet and interesting food item for the
           kids everywhere.
         </p>
 
-        <button class="bg-darkPink text-white min-w-[200px] min-h-[60px]">
+        <button
+          class="bg-darkPink text-white min-w-[200px] min-h-[60px] hover:opacity-80 transition"
+        >
           Buy Now
         </button>
       </div>
     </section>
 
     <section
-      class="container flex w-full items-center gap-[123px] justify-between pb-[100px]"
+      class="container flex w-full items-center gap-[87px] justify-between pb-[100px]"
     >
-      <div class="w-1/2">
-        <h2 class="text-[35px] font-bold mb-[30px]">
-          Your ice cream store around the corner.
-        </h2>
+      <div class="flex items-center w-[50%]">
+        <img src="./img/quotes.png" />
 
-        <p class="mb-[40px]">
-          The Polar family stands strong to satisfy customers, consumers and
-          other stakeholders with high quality ice creams and superior services.
-        </p>
+        <div>
+          <h2 class="text-[35px] font-bold mb-[30px]">
+            Your ice cream store around the corner.
+          </h2>
 
-        <div class="flex flex-col w-full">
-          <h3 class="mb-[5px]">Rebecca M. Iverson</h3>
+          <p class="mb-[40px] opacity-70">
+            The Polar family stands strong to satisfy customers, consumers and
+            other stakeholders with high quality ice creams and superior
+            services.
+          </p>
 
-          <div class="flex w-full justify-between">
-            <span>UI Designer</span>
+          <div class="flex flex-col w-full">
+            <h3 class="mb-[5px] font-bold text-[20px]">Rebecca M. Iverson</h3>
 
-            <div><img src="./img/Rating.svg" /></div>
+            <div class="flex w-full justify-between">
+              <span class="text-[18px]">UI Designer</span>
+
+              <div><img src="./img/Rating.svg" /></div>
+            </div>
           </div>
         </div>
       </div>
 
-      <img src="./img/Girl.png" />
+      <img class="w-[50%]" src="./img/Girl.png" />
     </section>
 
     <section class="container">
       <div
-        class="bg-gradient-to-r from-[#cf597957] to-white mb-[125px] flex w-full items-center relative"
+        class="bg-pink-gradient mb-[125px] flex w-full items-center relative"
       >
         <img class="absolute top-0" src="./img/confetty.png" />
 
         <div class="max-w-[50%] p-[50px] z-10">
-          <h2 class="text-[35px] font-bold mb-[30px] text-lightBlack">
+          <h2 class="text-[35px] font-bold mb-[30px]">
             Flat 50% OFF, Hurry up before the stock ends
           </h2>
 
@@ -153,7 +160,9 @@
             some added elements.
           </p>
 
-          <button class="bg-darkPink text-white min-w-[200px] min-h-[60px]">
+          <button
+            class="bg-darkPink text-white min-w-[200px] min-h-[60px] hover:opacity-80 transition"
+          >
             Buy Now
           </button>
         </div>
@@ -166,10 +175,14 @@
         <a href="/"><img src="./img/logo.png" alt="logo" /></a>
 
         <ul class="flex gap-10 text-white">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a class="hover:text-darkPink transition" href="#">Home</a></li>
+          <li>
+            <a class="hover:text-darkPink transition" href="#">Product</a>
+          </li>
+          <li><a class="hover:text-darkPink transition" href="#">About</a></li>
+          <li>
+            <a class="hover:text-darkPink transition" href="#">Contact</a>
+          </li>
         </ul>
 
         <ul class="flex items-center gap-10">
