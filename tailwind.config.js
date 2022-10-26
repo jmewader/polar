@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     screens: {
       ld: { max: "1200xp" },
-      md: { max: "900px" },
+      md: { max: "1000px" },
       sm: { max: "500px" },
     },
     container: {
@@ -14,6 +14,7 @@ module.exports = {
       colors: {
         darkPink: "#CF5979",
         lightBlack: "#101010",
+        bgMain: "#070302",
       },
     },
   },

@@ -16,43 +16,49 @@
 
   <body>
     <main
-      class="flex w-full flex-col items-start bg-center bg-cover pb-[156px]"
+      class="flex w-full flex-col items-start bg-right bg-cover bg-no-repeat bg-bgMain relative pb-[156px] md:pb-[90px] md:bg-left"
       style="background-image: url('./img/Group\ 62.jpg')"
     >
       <header class="container w-full py-8">
         <div class="flex items-center justify-between">
-          <a href="/"><img src="./img/logo.png" alt="logo" /></a>
-          <ul class="flex gap-10 text-white">
-            <li><a class="hover:opacity-60 transition" href="#">Home</a></li>
-            <li><a class="hover:opacity-60 transition" href="#">Product</a></li>
-            <li><a class="hover:opacity-60 transition" href="#">About</a></li>
-            <li><a class="hover:opacity-60 transition" href="#">Contact</a></li>
+          <a href="/"
+            ><img class="min-w-[55px]" src="./img/logo.png" alt="logo"
+          /></a>
+          <ul class="flex gap-10 text-white sm:gap-5">
+            <li><a class="hover:opacity-60 transition sm:text-[14px]" href="#">Home</a></li>
+            <li><a class="hover:opacity-60 transition sm:text-[14px]" href="#">Product</a></li>
+            <li><a class="hover:opacity-60 transition sm:text-[14px]" href="#">About</a></li>
+            <li><a class="hover:opacity-60 transition sm:text-[14px]" href="#">Contact</a></li>
           </ul>
         </div>
       </header>
 
-      <div class="container">
-        <div class="flex flex-col items-start max-w-[648px] mt-[140px]">
-          <h1 class="text-white text-[61px] mb-10 leading-[73px]">
+      <div class="container relative">
+        <div
+          class="flex flex-col items-start max-w-[648px] mt-[60px] md:text-center md:max-w-full md:mt-[30px]"
+        >
+          <h1 class="w-full text-white text-[61px] mb-10 leading-[73px] md:text-[45px] md:mb-3 md:leading-[45px] sm:text-[32px]">
             Sweet ice cream for pleasure seekers.
           </h1>
 
-          <div class="flex items-center gap-12 mb-[30px]">
-            <img src="./img/Group 57.svg" />
-            <p class="text-white text-xl opacity-80">
+          <div class="flex items-center gap-12 mb-[30px] md:gap-5  sm:flex-col">
+            <img class="md:w-[70px]" src="./img/Group 57.svg" />
+            <p class="text-white text-xl opacity-80 md:text-[18px] sm:text-[16px]">
               Ice cream is a type of frozen food that is made from water,milk
               and some added elements.It is a sweet and interesting food item
               for the kids everywhere.
             </p>
           </div>
 
-          <div class="flex w-full justify-center">
+          <div class="flex relative z-10 w-full justify-center">
             <button>
-              <img src="./img/Button.svg" />
+              <img class="md:w-[170px]" src="./img/Button.svg" />
             </button>
           </div>
         </div>
       </div>
+
+      <img class="absolute bottom-0" src="./img/choco-milk.png" />
     </main>
 
     <section class="flex py-[130px]">
@@ -68,19 +74,25 @@
         </div>
 
         <ul class="flex w-full items-center justify-between">
-          <li class="flex flex-col items-center pb-10 cursor-pointer hover:item-shadow transition">
+          <li
+            class="flex flex-col items-center pb-10 cursor-pointer hover:item-shadow transition"
+          >
             <img class="flex max-w-[282px]" src="./img/Vanilla.png" /><span
               class="text-[28px]"
               >Carnival <span class="text-darkPink">(Vanilla)</span></span
             >
           </li>
-          <li class="flex flex-col items-center pb-10 cursor-pointer hover:item-shadow transition">
+          <li
+            class="flex flex-col items-center pb-10 cursor-pointer hover:item-shadow transition"
+          >
             <img class="flex max-w-[282px]" src="./img/Choco.png" /><span
               class="text-[28px]"
               ><span class="text-darkPink">Choco </span>delight</span
             >
           </li>
-          <li class="flex flex-col items-center pb-10 cursor-pointer hover:item-shadow transition">
+          <li
+            class="flex flex-col items-center pb-10 cursor-pointer hover:item-shadow transition"
+          >
             <img class="flex max-w-[282px]" src="./img/Strawberry.png" /><span
               class="text-[28px]"
               >Carnival<span class="text-darkPink"> Strawberry</span>
@@ -172,7 +184,9 @@
 
     <footer class="w-full bg-black">
       <div class="container p-9 flex items-center justify-between">
-        <a href="/"><img src="./img/logo.png" alt="logo" /></a>
+        <a href="/"
+          ><img class="min-w-[55px]" src="./img/logo.png" alt="logo"
+        /></a>
 
         <ul class="flex gap-10 text-white">
           <li><a class="hover:text-darkPink transition" href="#">Home</a></li>
