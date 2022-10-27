@@ -937,6 +937,14 @@ body {
     width: 100%;
   }
 
+  .td\:w-\[\] {
+    width: ;
+  }
+
+  .td\:w-\[50px\] {
+    width: 50px;
+  }
+
   .td\:max-w-full {
     max-width: 100%;
   }
