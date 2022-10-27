@@ -19,7 +19,7 @@
       class="flex w-full flex-col items-start bg-right bg-cover bg-no-repeat bg-bgMain relative pb-[156px] md:pb-[90px] md:bg-left"
       style="background-image: url('./img/Group\ 62.jpg')"
     >
-      <header class="container w-full py-8">
+      <header class="container w-full py-8 td:p-5">
         <div class="flex items-center justify-between">
           <a href="/"
             ><img class="min-w-[55px]" src="./img/logo.png" alt="logo"
@@ -135,7 +135,7 @@
     <section
       class="container flex w-full items-center gap-[50px] pb-[152px] md:flex-col md:text-center md:pb-[100px]"
     >
-      <img class="md:max-w-[400px]" src="./img/Unicorn.png" />
+      <img class="md:max-w-[400px] sm:max-w-[100%]" src="./img/Unicorn.png" />
 
       <div>
         <h2 class="text-[35px] font-bold mb-[30px]">
@@ -160,7 +160,7 @@
       class="container flex w-full items-center gap-[87px] justify-between pb-[100px] md:gap-5 td:flex-col"
     >
       <div class="flex items-center w-[50%] td:w-full">
-        <img src="./img/quotes.png" />
+        <img class="sm:w-[30px]" src="./img/quotes.png" />
 
         <div>
           <h2 class="text-[35px] font-bold mb-[30px]">
@@ -190,11 +190,11 @@
 
     <section class="container">
       <div
-        class="bg-pink-gradient mb-[125px] flex w-full items-center relative"
+        class="bg-pink-gradient mb-[125px] flex w-full items-center relative td:flex-col"
       >
         <img class="absolute top-0" src="./img/confetty.png" />
 
-        <div class="max-w-[50%] p-[50px] z-10">
+        <div class="max-w-[50%] p-[50px] z-10 td:max-w-full td:text-center sm:p-6">
           <h2 class="text-[35px] font-bold mb-[30px]">
             Flat 50% OFF, Hurry up before the stock ends
           </h2>
@@ -210,46 +210,59 @@
             Buy Now
           </button>
         </div>
-        <img class="absolute bottom-[-16px] right-0" src="./img/pingvin.png" />
+        <img
+          class="absolute bottom-[-16px] right-0 md:max-w-[300px] md:relative"
+          src="./img/pingvin.png"
+        />
       </div>
     </section>
 
     <footer class="w-full bg-black">
-      <div class="container p-9 flex items-center justify-between">
+      <div
+        class="container p-9 flex items-center justify-between td:flex-col td:p-5 td:gap-4"
+      >
         <a href="/"
           ><img class="min-w-[55px]" src="./img/logo.png" alt="logo"
         /></a>
 
         <ul class="flex gap-10 text-white">
-          <li><a class="hover:text-darkPink transition" href="#">Home</a></li>
           <li>
-            <a class="hover:text-darkPink transition" href="#">Product</a>
+            <a class="hover:text-darkPink transition sm:text-[14px]" href="#"
+              >Home</a
+            >
           </li>
-          <li><a class="hover:text-darkPink transition" href="#">About</a></li>
           <li>
-            <a class="hover:text-darkPink transition" href="#">Contact</a>
+            <a class="hover:text-darkPink transition sm:text-[14px]" href="#"
+              >Product</a
+            >
+          </li>
+          <li>
+            <a class="hover:text-darkPink transition sm:text-[14px]" href="#"
+              >About</a
+            >
+          </li>
+          <li>
+            <a class="hover:text-darkPink transition sm:text-[14px]" href="#"
+              >Contact</a
+            >
           </li>
         </ul>
 
         <ul class="flex items-center gap-10">
           <li>
-            <a href="#" class="sm:text-[14px]"
-              ><img src="./img/facebook.svg"
+            <a href="#"
+              ><img class="min-w-[12px]" src="./img/facebook.svg"
             /></a>
           </li>
           <li>
-            <a href="#" class="sm:text-[14px]"
-              ><img src="./img/twitter.svg"
-            /></a>
+            <a href="#"><img class="min-w-[12px]" src="./img/twitter.svg" /></a>
           </li>
           <li>
-            <a href="#" class="sm:text-[14px]"
-              ><img src="./img/google.svg"
-            /></a>
+            <a href="#"><img class="min-w-[12px]" src="./img/google.svg" /></a>
           </li>
           <li>
-            <a href="#" class="sm:text-[14px]"
-              ><img src="./img/pinterest.svg"
+            <a href="#"
+              ><img class="min-w-[12px]" src="./img/pinterest.svg"
             /></a>
           </li>
         </ul>
