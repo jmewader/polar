@@ -4,6 +4,7 @@ module.exports = {
     screens: {
       ld: { max: "1200xp" },
       md: { max: "1000px" },
+      td: { max: "800px" },
       sm: { max: "500px" },
     },
     container: {
