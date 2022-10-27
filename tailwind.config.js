@@ -6,6 +6,7 @@ module.exports = {
       md: { max: "1000px" },
       td: { max: "800px" },
       sm: { max: "500px" },
+      xs: { max: "400px" },
     },
     container: {
       padding: "20px",

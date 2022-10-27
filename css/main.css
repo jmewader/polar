@@ -596,40 +596,12 @@ body {
   width: 50%;
 }
 
-.min-w-\[55px\] {
-  min-width: 55px;
-}
-
 .min-w-\[200px\] {
   min-width: 200px;
 }
 
-.min-w-\[\] {
-  min-width: ;
-}
-
-.min-w-\[23px\] {
-  min-width: 23px;
-}
-
-.min-w-\[15px\] {
-  min-width: 15px;
-}
-
-.min-w-\[10px\] {
-  min-width: 10px;
-}
-
-.min-w-\[13px\] {
-  min-width: 13px;
-}
-
 .min-w-\[12px\] {
   min-width: 12px;
-}
-
-.min-w-\[11px\] {
-  min-width: 11px;
 }
 
 .max-w-\[648px\] {
@@ -690,6 +662,10 @@ body {
 
 .gap-\[87px\] {
   gap: 87px;
+}
+
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .bg-bgMain {
@@ -937,35 +913,11 @@ body {
     width: 100%;
   }
 
-  .td\:w-\[\] {
-    width: ;
-  }
-
   .td\:w-\[50px\] {
     width: 50px;
   }
 
   .td\:max-w-full {
-    max-width: 100%;
-  }
-
-  .td\:max-w-\[20\%\] {
-    max-width: 20%;
-  }
-
-  .td\:max-w-\[40\%\] {
-    max-width: 40%;
-  }
-
-  .td\:max-w-\[60\%\] {
-    max-width: 60%;
-  }
-
-  .td\:max-w-\[90\%\] {
-    max-width: 90%;
-  }
-
-  .td\:max-w-\[100\%\] {
     max-width: 100%;
   }
 
@@ -977,20 +929,8 @@ body {
     gap: 1rem;
   }
 
-  .td\:p-4 {
-    padding: 1rem;
-  }
-
   .td\:p-5 {
     padding: 1.25rem;
-  }
-
-  .td\:p-10 {
-    padding: 2.5rem;
-  }
-
-  .td\:p-6 {
-    padding: 1.5rem;
   }
 
   .td\:p-8 {
@@ -1019,10 +959,6 @@ body {
     gap: 1.25rem;
   }
 
-  .sm\:p-4 {
-    padding: 1rem;
-  }
-
   .sm\:p-6 {
     padding: 1.5rem;
   }
@@ -1037,5 +973,11 @@ body {
 
   .sm\:text-\[16px\] {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .xs\:flex-col {
+    flex-direction: column;
   }
 }
