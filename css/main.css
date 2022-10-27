@@ -985,6 +985,18 @@ body {
     padding: 1.25rem;
   }
 
+  .td\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .td\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .td\:p-8 {
+    padding: 2rem;
+  }
+
   .td\:text-center {
     text-align: center;
   }
